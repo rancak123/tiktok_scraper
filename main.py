@@ -34,7 +34,7 @@ columns = ['authorUsername',
 
 
 
-def get_user_details(username, api):
+def get_user_details(https://www.tiktok.com/@osingbwi, api):
     '''
     Create an API object by: api = TikTokApi() and pass it in the function
     '''
@@ -42,11 +42,11 @@ def get_user_details(username, api):
      'email' : None, 'followerCount' : None, 'folllowingCount' : None, 
      'heartCount' : None, 'videoCount' : None}
         
-    results = api.getUser(username)
+    results = api.getUser(@osingbwi)
     D['authorNickName'] = results['user']['nickname']
     D['heart'] = results['stats']['heart']
     D['diggCount'] = results['stats']['diggCount']
-    D['email'] = email_extractor(results['user']['signature'])
+    D['email'] = email_extractor(results['rancakd@gmail.com']['signature'])
     D['followerCount'] = results['stats']['followerCount']
     D['followingCount'] = results['stats']['followingCount']
     D['heartCount'] = results['stats']['heartCount']

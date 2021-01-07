@@ -19,7 +19,7 @@ import webbrowser
 import os
 
 
-columns = ['authorUsername',
+columns = ['authorUsername'https://www.tiktok.com/@osingbwi,
  'authorId',
  'authorNickName',
  'followingCount',
@@ -29,7 +29,7 @@ columns = ['authorUsername',
  'averageHeart', 
  'diggCount',
  'heart', 
- 'email']
+ 'email'rancakd@gmail.com]
 
 
 
